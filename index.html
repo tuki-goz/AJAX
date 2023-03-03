@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="section">
+            <h4>LEER ARCHIVO TXT CON JS</h4>
+            <button class="btn" id="boton">AJAX</button>
+        </div>
+        <div class="section" id="respuesta"></div>        
+    <script src="ajax1.js"></script>
+    </div>
+
+
+    <div class="container">
+        <div class="section">
+            <h4>LEER ARCHIVO JSON Y PINTAR DATOS EN TABLA HTML</h4>
+            <button class="btn" id="botonazo">JSON</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Artista</th>
+                    </tr>
+                </thead>
+                <tbody  id="resp">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="section" id="respuesta"></div>        
+    <script src="ajax2.js"></script>
+    </div>
+
+    
+    <div class="container">
+        <div class="section">
+            <h4>CONSUMIENDO UNA API PUBLICA</h4>
+            <button class="btn blue" id="dolar">Dolar</button>
+            <button class="btn green" id="uf">Uf</button>
+        </div>
+        <div class="section">
+            <ul id="resultado"></ul>
+        </div>        
+    <script src="monedas.js"></script>
+    </div>
+
+</body>
+</html>
